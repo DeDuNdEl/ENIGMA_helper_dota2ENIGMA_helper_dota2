@@ -31,7 +31,7 @@ def main():
 
         else:
             if is_black_hole == 1:
-                time.sleep(1.5)
+                time.sleep(1.5) #время проигрыша музыки после дачи блек хола
 
             if checker == False and check_black_hole() == False:
                 checker = True
